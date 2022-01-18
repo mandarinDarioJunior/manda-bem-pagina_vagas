@@ -1,0 +1,191 @@
+.content-section-3 {
+  max-width: 100%;
+  width: 100%;
+  background-image: url("../img/fundo_areas_abertas.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10rem;
+  padding: 0 2rem 50px 2rem;
+
+  @media screen and (max-width: $xxl) {
+    flex-direction: column;
+    padding: 0 2rem 180px 2rem;
+  }
+  @media screen and (max-width: $md) {
+    margin-bottom: 2rem;
+    padding-bottom: 100px;
+  }
+  
+
+  .image-pessoa-ab {
+    width: 100%;
+    position: relative;
+    margin: 0 2rem 0 0;
+    text-align: center;
+    
+    img {
+      max-width: 750px;
+      width: 100%;
+    }
+    }
+  }
+
+  .container-right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+
+
+    @media screen and (max-width: $xxl) {
+      align-items: center;
+    }
+
+    h2 {
+      color: $white;
+      font-family: OpenSans-Bold;
+      font-size: 3.4375rem;
+      position: relative;
+      margin-top: 5rem;
+      margin-bottom: 40px;
+      padding-left: 1rem;
+
+      @media screen and (max-width: $xxl) {
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 7rem;
+      }
+
+      @media screen and (max-width: $lg) {
+        font-size: 1.8rem;
+      }
+
+      &::after {
+        content: "";
+        width: 130px;
+        height: 10px;
+        background-color: $green;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 auto;
+      }
+    }
+
+    p {
+      color: $white;
+      font-family: OpenSans-Regular;
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+      padding-left: 1rem;
+
+      @media screen and (max-width: $xxl) {
+        text-align: center;
+      }
+
+      @media screen and (max-width: $lg) {
+        font-size: 1.2rem;
+      }
+    }
+
+    .container-squares {
+      width: 100%;
+      max-width: 550px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      @media screen and (max-width: $md) {
+        justify-content: space-evenly;
+      }
+      .square {
+        min-width: 150px;
+        height: 135px;
+        border-radius: 10px;
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+        margin: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        outline: none;
+        text-decoration: none;
+
+        &:hover {
+          box-shadow: 0 0 3pt 2pt $green;
+        }
+
+        &:hover::after {
+          filter: opacity(0.3);
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          border-radius: 10px;
+          background-color: $green;
+          z-index: 10;
+          filter: opacity(0);
+          transition: all 0.3s ease;
+        }
+
+        img {
+          height: 50%;
+        }
+
+        p {
+          position: relative;
+          color: black;
+          font-size: 1rem;
+          font-family: OpenSans-Bold;
+          text-decoration: none;
+          margin: 0px;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .close {
+    position: relative;
+    pointer-events: none;
+    
+    img {
+      opacity: 0.5;
+      filter: grayscale(100);
+    }
+
+    p {
+      opacity: 0.5;
+    }
+
+    &::before {
+      text-align: center;
+      content: "ENCERRADA";
+      color: white;
+      background-color: $green;
+      font-family: OpenSans-Bold;
+      position: absolute;
+      top: 30%;
+      left: -11%;
+      width: 125%;
+      height: auto;
+      padding: 5px 0;
+      border-radius: 15px;
+      z-index: 10;
+      transform: rotateZ(-25deg);
+    }
+  }

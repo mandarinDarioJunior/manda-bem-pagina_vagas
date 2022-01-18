@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="89.5" height="83.066" viewBox="0 0 89.5 83.066">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_644" data-name="Grupo 644" transform="translate(-137.038 -3138)">
+    <ellipse id="Elipse_76" data-name="Elipse 76" cx="42.269" cy="41.533" rx="42.269" ry="41.533" transform="translate(142 3138)" fill="#3eb28b" opacity="0.1"/>
+    <path id="Caminho_26" data-name="Caminho 26" d="M246.154,3303.847H231.538" transform="translate(-92 -142.296)" fill="none" stroke="#fe7c34" stroke-linecap="round" stroke-width="5"/>
+    <path id="Caminho_27" data-name="Caminho 27" d="M238.846,3303.847h-7.308" transform="translate(-84.692 -132.802)" fill="none" stroke="#fe7c34" stroke-linecap="round" stroke-width="5"/>
+    <g id="Grupo_80" data-name="Grupo 80" transform="translate(161.734 3157.126)">
+      <ellipse id="Elipse_57" data-name="Elipse 57" cx="18" cy="10.5" rx="18" ry="10.5" transform="translate(44.483 29.67) rotate(-177)" opacity="0.2" fill="url(#linear-gradient)"/>
+      <ellipse id="Elipse_58" data-name="Elipse 58" cx="18" cy="10.5" rx="18" ry="10.5" transform="matrix(-0.695, 0.719, -0.719, -0.695, 40.114, 14.588)" opacity="0.1" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="surface1" transform="translate(164.538 3158.941)">
+      <path id="Caminho_6012" data-name="Caminho 6012" d="M3.595,38.951H22.289V37.512H3.595a2.157,2.157,0,0,1-2.157-2.157V3.72A2.157,2.157,0,0,1,3.595,1.563H35.23A2.156,2.156,0,0,1,37.387,3.72V20.257h1.438V3.72A3.6,3.6,0,0,0,35.23.125H3.595A3.6,3.6,0,0,0,0,3.72V35.355A3.6,3.6,0,0,0,3.595,38.951Zm0,0" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6013" data-name="Caminho 6013" d="M62.344,62.469h1.438v1.438H62.344Zm0,0" transform="translate(-59.468 -59.468)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6014" data-name="Caminho 6014" d="M124.676,62.469h1.438v1.438h-1.438Zm0,0" transform="translate(-118.924 -59.468)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6015" data-name="Caminho 6015" d="M187.016,62.469h1.438v1.438h-1.438Zm0,0" transform="translate(-178.388 -59.468)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6016" data-name="Caminho 6016" d="M62.344,124.8H95.417v1.438H62.344Zm0,0" transform="translate(-59.468 -118.924)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6017" data-name="Caminho 6017" d="M69.3,191.707l-1.826,1.826a3.606,3.606,0,1,0,1.017,1.017l1.826-1.826Zm-3.806,6.979a2.157,2.157,0,1,1,0-4.314,2.118,2.118,0,0,1,.924.215l-1.432,1.432L66,197.037l1.433-1.431a2.117,2.117,0,0,1,.216.924A2.157,2.157,0,0,1,65.49,198.686Zm0,0" transform="translate(-59.019 -182.743)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6018" data-name="Caminho 6018" d="M264.941,249.484h12.223v1.438H264.941Zm0,0" transform="translate(-252.718 -237.855)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6019" data-name="Caminho 6019" d="M264.941,311.82h5.033v1.438h-5.033Zm0,0" transform="translate(-252.718 -297.315)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6020" data-name="Caminho 6020" d="M405.2,311.82h10.066v1.438H405.2Zm0,0" transform="translate(-386.509 -297.315)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6021" data-name="Caminho 6021" d="M561.047,249.484h7.19v1.438h-7.19Zm0,0" transform="translate(-535.163 -237.855)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6022" data-name="Caminho 6022" d="M69.3,378.723l-1.826,1.826a3.606,3.606,0,1,0,1.017,1.017l1.826-1.826ZM65.49,385.7a2.157,2.157,0,0,1,0-4.314,2.121,2.121,0,0,1,.924.216l-1.432,1.433L66,384.053l1.433-1.432a2.119,2.119,0,0,1,.216.924A2.157,2.157,0,0,1,65.49,385.7Zm0,0" transform="translate(-59.019 -361.131)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6023" data-name="Caminho 6023" d="M264.941,436.492h12.223v1.438H264.941Zm0,0" transform="translate(-252.718 -416.236)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6024" data-name="Caminho 6024" d="M264.941,498.836h5.033v1.438h-5.033Zm0,0" transform="translate(-252.718 -475.703)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6025" data-name="Caminho 6025" d="M405.2,498.836h5.752v1.438H405.2Zm0,0" transform="translate(-386.509 -475.703)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6026" data-name="Caminho 6026" d="M561.047,436.492h2.876v1.438h-2.876Zm0,0" transform="translate(-535.163 -416.236)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6027" data-name="Caminho 6027" d="M69.3,565.738l-1.826,1.826a3.606,3.606,0,1,0,1.017,1.017l1.826-1.826Zm-3.806,6.979a2.157,2.157,0,0,1,0-4.314,2.117,2.117,0,0,1,.924.216l-1.432,1.433L66,571.068l1.433-1.432a2.119,2.119,0,0,1,.216.924A2.157,2.157,0,0,1,65.49,572.718Zm0,0" transform="translate(-59.019 -539.519)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6028" data-name="Caminho 6028" d="M264.941,623.512h9.347v1.438h-9.347Zm0,0" transform="translate(-252.718 -594.627)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6029" data-name="Caminho 6029" d="M264.941,685.852h5.033v1.438h-5.033Zm0,0" transform="translate(-252.718 -654.091)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6030" data-name="Caminho 6030" d="M405.2,685.852h2.876v1.438H405.2Zm0,0" transform="translate(-386.509 -654.091)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6031" data-name="Caminho 6031" d="M509.5,489.234a10.785,10.785,0,1,0-10.785-10.785A10.785,10.785,0,0,0,509.5,489.234Zm0-20.132a9.347,9.347,0,1,1-9.347,9.347A9.347,9.347,0,0,1,509.5,469.1Zm0,0" transform="translate(-475.703 -445.969)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+      <path id="Caminho_6032" data-name="Caminho 6032" d="M610.807,587.263l-1.287.643,1.438,2.876a.718.718,0,0,0,.528.388.807.807,0,0,0,.112.009.721.721,0,0,0,.509-.211l8.628-8.628-1.016-1.017-7.923,7.922Zm0,0" transform="translate(-581.4 -554.386)" fill="#3eb28b" stroke="#3eb28b" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>

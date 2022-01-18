@@ -1,0 +1,126 @@
+.parent-hero {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5rem;
+  padding-top: 10rem;
+  width: 100%;
+
+  .hero {
+    // position: absolute;
+    max-width: 600px;
+    // right: 9vw;
+    // top: 30vh;
+    z-index: 1;
+    // display: -webkit-box;
+    // display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      margin-bottom: 2rem;
+      width: 100%;
+    }
+
+    .button {
+      background-color: #3eb28b;
+      border: 1px solid #369c82;
+
+      padding: 0.8rem 4rem;
+      border-radius: 8px;
+      cursor: pointer;
+      position: relative;
+      min-width: 50%;
+      margin: 0 auto;
+      text-decoration: none;
+      outline: none;
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: #fe4c4e;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        border-radius: 10px;
+        z-index: -1;
+      }
+
+      p {
+        font-family: OpenSans-Bold;
+        color: #ffffff;
+        font-size: 1.6rem;
+        margin: 0px;
+      }
+    }
+
+    p {
+      text-align: center;
+      color: $white;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      font-family: OpenSans-SemiBold;
+    }
+  }
+
+  @media (max-width: $xxl) {
+    padding-top: 20vh;
+
+    .hero {
+      // position: absolute;
+      max-width: 500px;
+      // right: 0vw;
+      // top: 21vh;
+
+      .button {
+        font-size: 1.2rem;
+        padding: 0.8rem 4rem;
+      }
+    }
+  }
+
+  @media (max-width: $xl) {
+    padding-top: 5vh;
+  }
+
+  @media (max-width: $lg) {
+    .hero {
+      // position: absolute;
+      max-width: 400px;
+      // right: 3vw;
+      // top: 14vh;
+
+      .button {
+        // font-size: 1.2rem;
+        padding: 0.8rem 1rem;
+      }
+    }
+  }
+
+  @media (max-width: $md) {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-top: 70vh;
+  }
+
+  @media (max-width: $sm) {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    padding-top: 50vh;
+    .hero {
+      // position: absolute;
+      width: 100%;
+      max-width: 366px;
+      // right: 0vw;
+      // top: 49vh;
+
+      .button {
+        // font-size: 1.2rem;
+        padding: 0.8rem 0rem;
+      }
+    }
+  }
+}

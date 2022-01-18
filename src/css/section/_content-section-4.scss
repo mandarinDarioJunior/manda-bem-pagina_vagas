@@ -1,0 +1,148 @@
+.content-section-4 {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem auto;
+
+  h2 {
+    width: fit-content;
+    margin-top: 7rem;
+    color: $gray-dark;
+    font-family: OpenSans-Bold;
+    font-size: 3.5rem;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+
+    @media screen and (max-width: $lg) {
+      font-size: 1.8rem;
+    }
+
+    &::after {
+      content: "";
+      width: 130px;
+      height: 10px;
+      background-color: $green;
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0 auto;
+    }
+  }
+
+  .section-img {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
+
+.carousel {
+  width: 100%;
+  height: 500px;
+  max-width: 1280px;
+  display: flex;
+  margin-top: 3rem;
+  flex-direction: row;
+
+  .carousel-button-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5rem;
+    padding: 0 2rem;
+    cursor: pointer;
+
+    img {
+      transition: all 0.3s ease;
+      &:hover {
+        filter: brightness(1.2);
+      }
+
+      @media screen and (max-width: $lg) {
+        width: 30px;
+      }
+    }
+  }
+
+  .carousel-window {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+
+    .carousel-wrapper {
+      width: 5 * 100%;
+      position: absolute;
+      z-index: -1;
+      top: 0px;
+      left: 0px;
+      display: flex;
+      flex-direction: row;
+      transition: all 0.5s ease;
+
+      .carousel-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .carousel-content {
+          width: 100%;
+          max-width: 75ch;
+
+          p {
+            font-size: 1.5rem;
+            color: $gray;
+
+            @media screen and (max-width: $lg) {
+              font-size: 1.2rem;
+            }
+          }
+
+          h3 {
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            color: $gray-dark;
+            font-family: OpenSans-Bold;
+
+            @media screen and (max-width: $lg) {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.carousel-dots {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  .dots {
+    background-color: $orange;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.5;
+    margin: 0 5px;
+
+    &.active {
+      opacity: 1;
+      width: 15px;
+      height: 15px;
+      -webkit-box-shadow: 0px 3px 7px 1px rgba(236, 80, 42, 0.19);
+      box-shadow: 0px 3px 7px 1px rgba(236, 80, 42, 0.19);
+    }
+  }
+}

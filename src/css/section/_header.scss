@@ -1,0 +1,191 @@
+header {
+  width: 100%;
+  max-width: 100%;
+  height: 120vh;
+  background-image: url("../img/banner_header.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  padding: 0 50px 0 70px;
+}
+
+.banner-header img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  max-width: 100%;
+}
+
+.logo-mandarin img {
+  z-index: 10;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar .items {
+  display: flex;
+  margin-top: 15px;
+}
+
+.nav-bar .items p {
+  margin: 40px 10px;
+  color: $white;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.close-navbar {
+  display: block;
+  width: 30px;
+}
+
+.invisible {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.logo-mandarin-menu {
+  display: none;
+}
+
+@media (max-width: $xxl) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url("../img/fundo_response.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: $xl) {
+  .nav-bar,
+  .nav-item {
+    justify-content: space-between;
+    z-index: 999;
+  }
+
+  .nav-bar .items {
+    flex-direction: column;
+    z-index: 999;
+    margin-top: -20px;
+    height: 800px;
+    align-items: center;
+  }
+
+  .items {
+    padding: 50px 20px 50px 20px;
+  }
+
+  .nav-bar .none {
+    display: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+    margin-top: 29px;
+    z-index: 999;
+  }
+
+  .logo-mandarin-menu {
+    display: block;
+    margin-top: -30px;
+    align-self: flex-start;
+  }
+
+  .nav-content {
+    // background-image: url("../img/fundo_mobile-2.png");
+    // background-color: $lite-orange;
+    background: rgb(254,123,52);
+    background: linear-gradient(59deg, rgba(254,123,52,1) 0%, rgba(236,81,42,1) 100%);
+    background-size: cover;
+    z-index: 990;
+    position: absolute;
+    right: 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 8px rgba(254, 76, 78, 0.54);
+    width: 100%;
+  }
+}
+
+@media (max-width: $lg) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    height: 60vh;
+    background-image: url("../img/fundo_response_lg.png");
+    background-repeat: no-repeat;
+  }
+
+  .nav-bar .items {
+    height: 600px;
+  }
+}
+
+@media (max-width: $md) {
+  header {
+    width: 100%;
+    max-width: 100%;
+    height: 150vh;
+    background-image: url("../img/fundo_mobile-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    padding: 0 20px 0 20px;
+  }
+
+  .logo-mandarin img {
+    width: 80%;
+  }
+
+  .menu-mobile {
+    background: url("../img/fundo_menu.svg");
+  }
+
+  .logo-mandarin-menu {
+    align-self: center;
+  }
+
+  .nav-bar .items {
+    height: 100vh;
+    justify-content: center;
+  }
+}
+
+@media (max-width: $sm) {
+  header {
+    height: 120vh;
+  }
+}
